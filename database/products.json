@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "607b8e4225fddd3809faa136"
+  },
+  "title": "Apple Watch Series 3",
+  "image": "../src/photos/applewatch.jpg",
+  "description": "Apple Watch Series 3 brings built-in cellular, powerful new health and fitness enhancements.",
+  "features": "GPS and Alimeter, Swimproof, Voice Based Siri, 3 Activity Rings Tracking - Move, Excercise, Stand, Smart Coaching, Breathe Application, Heart Rate Monitor, Notifier, Fitness & Outdoor",
+  "price": 199.99,
+  "shippingCost": 10
+},{
+  "_id": {
+    "$oid": "607b8e4225fddd3809faa137"
+  },
+  "title": "Hard Disk",
+  "image": "../src/photos/harddisk.jpg",
+  "description": "A hard disk is actually a set of stacked disks, like phonograph records. Each disk has data recorded.",
+  "features": "Portable Hard Drive, Capacity: 2 TB, Connectivity: USB 3.0, USB 2.0, Capacity : 2TB, Color: Black, Model Name: WDBHDW0020BBK-EESN",
+  "price": 100,
+  "shippingCost": 4.99
+},{
+  "_id": {
+    "$oid": "607b8e4225fddd3809faa138"
+  },
+  "title": "Head Phones",
+  "image": "../src/photos/headphones.jpg",
+  "description": "Headphones are small speakers that can be worn in or around your ears. Traditional headphones have 2 cups.",
+  "features": "With Mic:Yes, Bluetooth version: 4.1, Wireless range: 10 m, Battery life: 5 hr | Charging time: 2, Flatwire: Stays tangle free even in your pocket.",
+  "price": 95,
+  "shippingCost": 2.5
+},{
+  "_id": {
+    "$oid": "607b8e4225fddd3809faa139"
+  },
+  "title": "Laptop",
+  "image": "../src/photos/macbook.jpg",
+  "description": "A laptop computer is a small personal computer. They are designed to be more portable than traditional desktop computers.",
+  "features": "Stylish & Portable Thin and Light Laptop, 13.3 inch Quad HD LED Backlit IPS Retina Display (227 ppi, 16:10 Aspect Ratio, True Tone Technology), Finger Print Sensor for Faster System Access, Light Laptop without Optical Disk Drive",
+  "price": 1395.75,
+  "shippingCost": 11.25
+},{
+  "_id": {
+    "$oid": "607b8e4225fddd3809faa13a"
+  },
+  "title": "USB Pen Drive",
+  "image": "../src/photos/pendrive.jpg",
+  "description": "A USB flash drive -- also known as a USB stick, USB thumb drive or pen drive -- is a plug-and-play portable storage device. It is very helpful.",
+  "features": "USB 3.0|32 GB, Plastic, For Laptop, Desktop Computer, Mobile, Tablet, Color:Black",
+  "price": 35,
+  "shippingCost": 3
+},{
+  "_id": {
+    "$oid": "607b8e4225fddd3809faa13b"
+  },
+  "title": "Printer",
+  "image": "../src/photos/printer.jpg",
+  "description": "A printer is an output device that prints paper documents. This includes text documents, images, or a combination of both.",
+  "features": "Ink Tank, Output: Color, USB, Cost per Page (Black): 7 Paise | Cost per Page (Color): 18 Paise, Print Speed Mono A4: 33 ppm | Print Speed Color A4: 15 ppm",
+  "price": 449.99,
+  "shippingCost": 10
+}]

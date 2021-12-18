@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "607c68e85ca94fd0215e90b1"
+  },
+  "orderId": {
+    "$oid": "607c68435ca94fd0215e90b0"
+  },
+  "pId": {
+    "$oid": "607b8e4225fddd3809faa138"
+  },
+  "qty": 2,
+  "price": 200
+},{
+  "_id": {
+    "$oid": "607c699625fddd3809faa141"
+  },
+  "orderId": {
+    "$oid": "607c68435ca94fd0215e90b0"
+  },
+  "pId": {
+    "$oid": "607b8e4225fddd3809faa137"
+  },
+  "qty": 1,
+  "price": 100
+},{
+  "_id": {
+    "$oid": "607c69bb25fddd3809faa142"
+  },
+  "orderId": {
+    "$oid": "607c68435ca94fd0215e90b0"
+  },
+  "pId": {
+    "$oid": "607b8e4225fddd3809faa139"
+  },
+  "qty": 1,
+  "price": 700.5
+}]

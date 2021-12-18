@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eShop upload file</title>
+</head>
+<body>
+    <input type="file" id="file"/>
+    <button onclick="upload()">Upload</button>
+
+    <script>
+        async function upload() {
+            var formData = new FormData();
+            var fileField = document.getElementById('file');
+            formData.append('file', fileField.files[0]);
+            let result = await fetch('/upload', {
+                method: 'POST',
+                credentials: 'include',
+                body: formData
+            });
+            let response = await result.json();
+            if(response.success) {
+                alert("File is uploaded");
+            }
+        }
+    </script>
+</body>
+</html>

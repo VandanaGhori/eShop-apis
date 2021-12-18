@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "607c5d8e25fddd3809faa13c"
+  },
+  "email": "Apatel4527@conestogac.on.ca",
+  "password": "ankit",
+  "name": "ankit",
+  "shippingAddress": "89, Broadwalk",
+  "city": "Calgary",
+  "province": "Alberta",
+  "country": "Canada",
+  "gender": "Male"
+},{
+  "_id": {
+    "$oid": "607c5d8e25fddd3809faa13d"
+  },
+  "email": "NGhori3467@conestogac.on.ca",
+  "password": "nisha",
+  "name": "Nisha Ghori",
+  "shippingAddress": "211, Akshardham Society, Laxmikant Ashram Road, Katargam.",
+  "city": "Montreal",
+  "province": "Quebec",
+  "country": "Canada",
+  "gender": "Female"
+},{
+  "_id": {
+    "$oid": "607c5d8e25fddd3809faa13e"
+  },
+  "email": "Skolappillilraj8374@conestogac.on.ca",
+  "password": "Sreerenjini",
+  "name": "Sree Renjini",
+  "shippingAddress": "229, Marshall St",
+  "city": "Windsor",
+  "province": "Ontario",
+  "country": "Canada",
+  "gender": "Female"
+},{
+  "_id": {
+    "$oid": "607c5d8e25fddd3809faa13f"
+  },
+  "email": "Vghori5197@conestogac.on.ca",
+  "password": "vandana",
+  "name": "vandana",
+  "shippingAddress": "228, Albert St",
+  "city": "Waterloo",
+  "province": "Ontario",
+  "country": "Canada",
+  "gender": "Female"
+},{
+  "_id": {
+    "$oid": "607c5d8e25fddd3809faa140"
+  },
+  "email": "Vpatel5921@conestogac.on.ca",
+  "password": "vidhi",
+  "name": "vidhi",
+  "shippingAddress": "255, Sunview st",
+  "city": "Waterloo",
+  "province": "Ontario",
+  "country": "Canada",
+  "gender": "Female"
+},{
+  "_id": {
+    "$oid": "607c603b53b3995b331f0a39"
+  },
+  "email": "Vidhi@conestogac.on.ca",
+  "password": "vidhipatel",
+  "name": "vidhi patel",
+  "shippingAddress": "255, Sunview st",
+  "city": "Waterloo",
+  "province": "Ontario",
+  "country": "Canada",
+  "gender": "Female"
+}]
