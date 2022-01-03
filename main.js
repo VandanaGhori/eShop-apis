@@ -8,6 +8,10 @@ const cors = require("cors");
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
+// Added
+// for launching front end from the back end server
+const history = require('connect-history-api-fallback');
+
 var cookieSession = require('cookie-session')
 
 var products = require('./api/products');
@@ -17,13 +21,18 @@ var comments = require('./api/comments');
 var users = require('./api/users');
 
 // add reference of dir
-app.use(express.static(path.resolve(__dirname, 'client')))
+//app.use(express.static(path.resolve(__dirname, 'client')))
 
 // conver url parameter to req.params.paramName
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(fileUpload())
 app.use(cors());
+
+// Added
+// for serving backend api to our front end with single server 
+app.use(express.static(path.resolve(__dirname, './dist'), {maxAge: '1y', etag: false}));
+app.use(history());
 
 const db = require('./db.js');
 db.init();
@@ -224,8 +233,20 @@ function setResHeader(res){
     res.setHeader('Access-Control-Allow-Headers','Origin,Content-Type,X-Requested-With,Accept,Authorization');
 }
 
+// Added
+// catch all the routes of the APIs to index.html file of dist folder of vue(front-end) 
+// for indexing front-end
+app.get('*', (req,res) => {
+    console.log("Manage all routes");
+    //console.log("Directory Name = " + __dirname + '/dist/index.html');
+    res.sendFile(path.join(__dirname, '/dist/index.html'));
+    //const fullPath = path.join(__dirname + '/dist/index.html');
+    //console.log("Fetching from.." + fullPath);
+    //res.sendFile(fullPath);
+});
 
-app.listen(9000)
+
+app.listen(process.env.PORT || 9000)
 
 // brew services start mongodb-community@4.4
 // Command: node main.js
